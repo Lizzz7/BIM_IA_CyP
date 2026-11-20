@@ -1,0 +1,28 @@
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Revit numbered backups, recovery files and local caches
+*.[0-9][0-9][0-9][0-9].rvt
+*.[0-9][0-9][0-9][0-9].rfa
+*_backup/
+Revit_temp/
+*.slog
+*.dmp
+*.tmp
+*.temp
+*.bak
+*.log
+*.lck
+
+# Editor and operating system files
+.vs/
+.vscode/
+.idea/
+__pycache__/
+.DS_Store
+Thumbs.db
+Desktop.ini
